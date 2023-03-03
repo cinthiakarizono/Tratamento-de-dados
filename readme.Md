@@ -10,6 +10,7 @@
 * [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
 * [Acesso ao projeto](#acesso-ao-projeto)
+* [Bibliografia](#bibliografia)
 * [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
 
 
@@ -42,8 +43,12 @@ Python| Pandas
 
 # Acesso ao projeto
 
-Após clonar o projeto é necessario instalar a biblioteca Pandas através do ´´´pip install pandas´´´
+Após clonar o projeto é necessario instalar a biblioteca Pandas através do ´´´pip install pandas´´´, tambem é necessario instalar a biblioteca tabula atraves do comando pip install tabula-py
 
+# Bibliografia
+
+https://www.kaggle.com/code/rtatman/data-cleaning-challenge-json-txt-and-xls
+ 
 # Pessoas desenvolvedoras
 
 [](https://github.com/cinthiakarizono)

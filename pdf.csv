@@ -1,0 +1,247 @@
+Data Header,Data Type,Data Description
+ActivityDay,date,Date value in mm/dd/yyyy format.
+StepTotal,integer,Total number of steps taken.
+Data Header,Data Type,Data Description
+ActivityHour,datetime,"Date and hour value in mm/dd/yyyy hh:mm:ssformat."
+StepTotal,integer,Total number of steps taken.
+Data Header,Data Type,Data Description
+ActivityHour,datetime,"Date and hour value in mm/dd/yyyy hh:mm:ssformat."
+Steps00 - Steps59,integer,"Total number of steps taken in each minute.Example: Steps05 = steps taken in fifth minuteof the hour."
+Data Header,Data Type,,Data Description
+ActivityMinute,datetime,,"Date and time value in mm/dd/yyyy hh:mm:ssformat."
+Steps,integer,Total number of steps taken.
+Data Header,Data Type,Data Description
+DateTime,date,Date value in mm/dd/yyyy format.
+Value,integer,Total number of floors climbed on that day.
+Data Header,Data Type,Data Description
+ActivityDate,date,Date value in mm/dd/yyyy format.
+TotalSteps,integer,Total number of steps taken.
+TotalDistance,integer,Total kilometers tracked.
+TrackerDistance,integer,Total kilometers tracked by Fitbit device.
+LoggedActivitiesDistance,integer,Total kilometers from logged activities.
+VeryActiveDistance,integer,Kilometers travelled during very active activity.
+ModeratelyActiveDistance,integer,Kilometers travelled during moderate activity.
+LightActiveDistance,integer,Kilometers travelled during light activity.
+SedentaryActiveDistance,integer,Kilometers travelled during sedentary activity.
+VeryActiveMinutes,integer,Total minutes spent in very active activity.
+FairlyActiveMinutes,integer,Total minutes spent in moderate activity.
+LightlyActiveMinutes,integer,Total minutes spent in light activity.
+SedentaryMinutes,integer,Total minutes spent in sedentary activity.
+Calories,integer,"Total estimated energy expenditure (inkilocalories)."
+Floors,integer,Total number of floors climbed.
+CaloriesBMR,integer,"Total energy expenditure from basal metabolicrate"
+MarginalCalories,integer,"Total marginal estimated energy expenditure (inkilocalories). Difference between ActivityCaloriesminus BMR contribution during exercises."
+"",,Difference between ActivityCalories
+"",,minus BMR contribution during exercises.
+RestingHeartRate,integer,Resting heart rate value.
+"Total marginal estimated energy expenditure (inkilocalories). Difference between ActivityCaloriesminus BMR contribution during exercises."
+Difference between ActivityCalories
+minus BMR contribution during exercises.
+Data Header,"DataType",Data Description
+Date,date,Date value in mm/dd/yyyy format.
+StartTime,time,Time value in hh:mm:ss format; 24-hour clock.
+Duration,integer,Duration of activity in milliseconds.
+Activity,string,Name of tracked activity.
+ActivityType,integer,Fitbit specific activity ID number.
+LogType,string,"Activity log creation method.auto_detected = activity logs are those createdby Fitbit’s SmartTrack feature.tracker = activity logs are those created usingthe multisport exercise mode on a Fitbit device.manual = activity logs are user specifiedoverrides of some or all tracker data.fitstar = activity logs are created aftercompleting a FitStar workout.mobile_run activity logs are createdaftercompleting a MobileRun."
+Steps,integer,Steps taken during activity.
+Distance,integer,"Kilometers travelled during activity.(Only available for certain tracker, manual, ormobile_run initiated activities.)"
+ElevationGain,integer,Elevation gained during activity (in meters).
+Calories,integer,"Total estimated energy expenditure duringactivity (in kilocalories)."
+SedentaryMinutes,integer,"Total minutes spent in sedentary intensity duringactivity."
+LightlyActiveMinutes,integer,"Total minutes spent in light intensity duringactivity."
+FairlyActiveMinutes,integer,"Total minutes spent in moderate intensity duringactivity."
+VeryActiveMinutes,integer,"Total minutes spent in very active intensity duringactivity."
+AverageHeartRate,integer,Average heart rate during activity.
+OutOfRangeHeartRateMinutes,integer,"Minutes spent in Out of Range heart rate zone (<Fat Burn Zone)"
+FatBurnHeartRateMinutes,integer,Minutes spent in Fat Burn heart rate zone.
+CardioHeartRateMinutes,integer,Minutes spent in Cardio heart rate zone.
+PeakHeartRateMinutes,integer,Minutes spent in Peak heart rate zone.
+Data Header,Data Type,Data Description
+ActivityDay,date,Date value in mm/dd/yyyy format.
+SedentaryMinutes,integer,Total minutes spent in sedentary activity.
+LightlyActiveMinutes,integer,Total minutes spent in light activity.
+FairlyActiveMinutes,integer,Total minutes spent in moderate activity.
+VeryActiveMinutes,integer,Total minutes spent in very active activity.
+SedentaryActiveDistance,integer,Kilometers travelled during sedentary activity.
+LightActiveDistance,integer,Kilometers travelled during light activity.
+ModeratelyActiveDistance,integer,Kilometers travelled during moderate activity.
+VeryActiveDistance,integer,Kilometers travelled during very active activit.
+Data Header,Data Type,Data Description
+ActivityHour,datetime,"Date and hour value in mm/dd/yyyy hh:mm:ssformat."
+TotalIntensity,integer,"Value calculated by adding all the minute-levelintensity values that occurred within the hour.."
+AverageIntensity,integer,"Average intensity state exhibited during thathour (TotalIntensity for that ActivityHour dividedby 60)."
+Data Header,Data Type,Data Description
+ActivityHour,datetime,Date and hour value in mm/dd/yyyy hh:mm:ss
+"",,format.
+Intensity00 - Intensity59,integer,Intensity value for the given minute.
+"",,0 = Sedentary
+"",,1 = Light
+"",,2 = Moderate
+"",,3 = Very Active
+Data Header,Data Type,Data Description
+ActivityMinute,datetime,Date and time value in mm/dd/yyyy hh:mm:ss
+"",,format.
+Intensity,integer,Intensity value.
+"",,0 = Sedentary
+"",,1 = Light
+"",,2 = Moderate
+"",,3 = Very Active
+Data Header,Data Type,Data Description
+ActivityHour,datetime,Date and hour value in mm/dd/yyyy hh:mm:ss
+"",,format.
+MET00 - MET59,integer,MET value for the given minute.
+"",,Important: All MET values exported from
+"",,Fitabase are multiplied by 10. Please divide by
+"",,10 to get accurate MET values
+"",,Example: 10 = 1.0 METs; 38 = 3.8 METs
+Data Header,Data Type,Data Description
+ActivityMinute,datetime,"Date and time value in mm/dd/yyyy hh:mm:ssformat."
+METs,integer,"MET value for the given minute.Important: All MET values exported fromFitabase are multiplied by 10. Please divide by10 to get accurate MET valuesExample: 10 = 1.0 METs; 38 = 3.8 METs"
+Data Header,Data Type,Data Description
+ActivityDay,date,Date value in mm/dd/yyyy format.
+Calories,integer,Total number of estimated calories burned.
+Data Header,Data Type,Data Description
+ActivityHour,datetime,"Date and hour value in mm/dd/yyyy hh:mm:ssformat."
+Calories,integer,Total number of estimated calories burned.
+Data Header,Data Type,Data Description
+ActivityHour,datetime,"Date and hour value in mm/dd/yyyy hh:mm:ssformat."
+Calories00 - Calories59,integer,"Total number of estimated calories burned.Example: Calories05 = calories burned in fifthminute of the hour."
+Data Header,Data Type,Data Description
+ActivityMinute,datetime,"Date and time value in mm/dd/yyyy hh:mm:ssformat."
+Calories,integer,Total number of estimated calories burned.
+Data Header,Data Type,Data Description
+LogDate,date,Date on which food item was logged.
+IsFavorite,boolean,"If participant has specified through their Fitbitapp that this food item is a favorite.Favorite = true"
+FoodAccessLevel,boolean,"If user created a private or public food recordthemselves."
+FoodAmount,integer,Quantity of food item consumed.
+FoodAmountUnit,string,Unit used to measure FoodAmount.
+FoodBrand,string,Name brand of given food item.
+FoodCalories,integer,"Calories contained in consumed amount oftracked food item."
+FoodId,integer,"Unique identification number assigned to eachitem in Fitbit’s database."
+FoodMealTypeId,integer,"Meal type value.1 = breakfast2 = morning snack3 = lunch4 = afternoon snack5 = dinner6 = after dinner7 = anytime"
+FoodLocale,string,Country of origin.
+FoodName,string,Name of food item consumed.
+NutritionalValueCalories,integer,"Nutritional value given food item provides incalories."
+NutritionalValueCarbs,integer,"Nutritional value given food item provides incarbohydrates."
+NutritionalValueFat,integer,Nutritional value given food item provides in fat.
+NutritionalValueFiber,integer,"Nutritional value given food item provides infiber."
+NutritionalValueProtein,integer,"Nutritional value given food item provides inprotein."
+NutritionalValueSodium,integer,"Nutritional value given food item provides insodium."
+Data Header,Data Type,Data Description
+SleepDay,date,"Date on which the sleep event started. (inmm/dd/yyyy hh:mm:ss format)"
+TotalSleepRecords,integer,"Number of recorded sleep periods for that day.Includes naps > 60min"
+TotalMinutesAsleep,interger,"Total number of minutes classified as being“asleep”."
+TotalTimeInBed,integer,"Total minutes spent in bed, including asleep,restless, and awake, that occurred during adefined sleep record."
+Data Header,Data Type,Data Description
+LogID,integer,"The unique log id in Fitbit’s system for thatsleep record."
+StartTime,datetime,Date and time the sleep record started.
+Duration,integer,"TimeInBed converted into milliseconds:(TimeInBed x 60 x 1,000)."
+Efficiency,integer,"Fitbit uses the following equation to calculatesleep efficiency: 100 * minutesAsleep /(TimeInBed - minutesAfterWakeup)"
+IsMainSleep,boolean,"Whether or not the sleep record is the mainsleep record for that day."
+MinutesAfterWakeup,integer,"Number of minutes after waking up before aparticipant manually changed their device out ofsleep mode."
+MinutesAsleep,integer,"Total number of minutes classified as being“asleep”."
+MinutesToFallAsleep,integer,"Total number of minutes taken to fall asleepafter setting device into “sleep mode”.Note: if device has “auto sleep detection”feature, this value will be zero."
+TimeInBed,integer,Total number of minutes spent in bed.
+AwakeCount,integer,"Number of distinct awake periods during sleep.This variable is determined by a clusteringalgorithm that Fitbit has applied to groupings ofawake occurrences."
+AwakeDuration,integer,"Number of minutes classified as being “awake”during a sleep record."
+RestlessCount,integer,"Number of distinct restless periods duringsleep. This variable is determined by aclustering algorithm that Fitbit has applied togroupings of restless occurrences."
+RestlessDuration,integer,"Number of minutes classified as being“restless” during a sleep record."
+Data Header,Data Type,Data Description
+date,datetime,"Date and minute of that day within a definedsleep period in mm/dd/yy hh:mm:ss formatNote: sleep minute data is commonly exportedwith :30 sec. In this case, the “floor” of the timevalue can be used to convert to wholeminutes.Example:04/20/2018 10:15:30 ? 04/20/201810:15:0004/20/2018 10:16:30 ? 04/20/201810:16:00"
+value,integer,"Value indicating the sleep state.1 = asleep, 2 = restless, 3 = awake"
+logId,integer,"The unique log id in Fitbit’s system for the sleeprecord."
+Data Header,Data Type,Data Description
+SleepDay,date,"Date on which the sleep event started. (inmm/dd/yyyy hh:mm:ss format)"
+TotalSleepRecords,integer,Number of recorded sleep records for that day.
+TotalMinutesAsleep,integer,"Total number of minutes classified as being“asleep” sum total of light, deep, and REMsleep)."
+TotalTimeInBed,integer,"Total minutes spent in bed, including awake,light, deep, and REM sleep, during a definedsleep record."
+TotalTimeAwake,integer,"Total number of minutes classified as beingawake."
+TotalMinutesLight,integer,"Total number of minutes classified as being inLight sleep stage."
+TotalMinutesDeep,integer,Total number of minutes classified as being in
+"",,deep sleep.
+TotalMinutesREM,integer,Total number of minutes classified as being in
+"",,REM sleep.
+Data Header,Data Type,Data Description
+LogID,integer,The unique log id in Fitbit’s system for that
+"",,sleep record.
+StartTime,datetime,Date and time the sleep record started.
+Duration,integer,TimeInBed converted into milliseconds:
+"",,"(TimeInBed x 60 x 1,000)."
+Efficiency,integer,Fitbit sleep efficiency score. Currently
+"",,calculated from Classic Sleep* algorithm
+"",,*Fitbit uses the following equation to calculate
+"",,sleep efficiency: 100 * minutesAsleep /
+"",,(TimeInBed - minutesAfterWakeup)
+IsMainSleep,boolean,Whether or not the sleep record is the main
+"",,sleep record for that day.
+SleepDataType,string,The sleep algorithm used for the sleep record.
+"",,Returns “stages” or “classic”.
+MinutesAfterWakeup,integer,Number of minutes after waking up before a
+"",,participant manually changed their device out of
+"",,sleep mode.
+MinutesAsleep,integer,Total number of minutes classified as being
+"",,“asleep”.
+MinutesToFallAsleep,integer,Total number of minutes taken to fall asleep
+"",,after setting device into “sleep mode”.
+"",,Note: if device has “auto sleep detection”
+"",,"feature, this value will be zero."
+TimeInBed,integer,Total number of minutes spent in bed.
+ClassicAsleepCount,integer,Unused (should always be zero).
+ClassicAsleepDuration,integer,"Number of minutes classified as being “asleep”during a classic sleep record."
+ClassicAwakeCount,integer,"Number of distinct awake periods during aclassic sleep record."
+ClassicAwakeDuration,integer,"Number of minutes classified as being “awake”during a classic sleep record."
+ClassicRestlessCount,integer,"Number of distinct restless periods during aclassic sleep record."
+ClassicRestlessDuration,integer,"Number of minutes classified as being“restless” during a classic sleep record."
+StagesWakeCount,integer,"Number of distinct awake periods during asleep stages record."
+StagesWakeDuration,integer,"Number of minutes classified as being awakeduring a sleep stages record."
+StagesWakeThirtyDayAvg,integer,Thirty day average of time spent awake.
+StagesLightCount,integer,"Number of distinct light sleep periods during asleep stages record."
+StagesLightDuration,integer,"Number of minutes classified as being in lightsleep during a sleep stages record."
+StagesLightThirtyDayAvg,integer,Thirty day average of time spent in light sleep.
+StagesDeepCount,integer,"Number of distinct deep sleep periods during asleep stages record."
+StagesDeepDuration,integer,"Number of minutes classified as being in deepsleep during a sleep stages record."
+StagesDeepThirtyDayAvg,integer,Thirty day average of time spent in deep sleep.
+StagesREMCount,integer,"Number of distinct REM periods during a sleepstages record."
+StagesREMDuration,integer,"Number of minutes classified as being in REMsleep during a sleep stages record."
+StagesREMThirtyDayAvg,integer,Thirty day average of time spent in REM sleep.
+Data Header,Data Type,Data Description
+LogId,integer,"The unique log id in Fitbit’s system for the sleeprecord."
+Time,datetime,"Date and time within a defined sleep period inmm/dd/yy hh:mm:ss formatNote: sleep stage data time series is in 30secintervals"
+Level,string,"The reported sleep stage for the time interval.(wake, light, deep, rem)."
+ShortWakes,string,"Reported as “wake” if part of a short wake isdetected. Short wakes are awakenings that lastless than 180 seconds. Commonly used forvisual distinction, but “physiologicallyequivalent” to longer wakes."
+SleepStages,string,"Combined Level and ShortWakes for true sleepstage time series."
+Data Header,Data Type,Data Description
+Date,datetime,"Date and time at which weight was recorded inmm/dd/yy hh:mm:ss format."
+WeightKg,integer,Weight recorded in kilograms.
+WeightPounds,integer,Weight in pounds.
+Fat,integer,Body fat percentage recorded.
+BMI,integer,"Measure of body mass index based on theheight and weight in the participant’s Fitbit.comprofile."
+IsManualReport,boolean,"If the data for this weigh in was done manually(TRUE), or if data was measured and syncheddirectly to Fitbit.com from a connected scale(FALSE)"
+LogId,integer,The unique log id in Fitbit’s systems
+Data Header,Data Type,Data Description
+Time,datetime,"Date and hour value in mm/dd/yyyy hh:mm:ssformat."
+Value,integer,Mean heart rate value.
+Data Header,Data Type,Data Description
+Time,datetime,"Date and hour value in mm/dd/yyyy hh:mm:ssformat."
+Value,integer,Mean heart rate value.
+Data Header,Data Type,Data Description
+Time,datetime,"Date and hour value in mm/dd/yyyy hh:mm:ssformat."
+Value,integer,Mean heart rate value.
+"",Data Header,Data Type,Data Description
+Time,,datetime,Date and time value in mm/dd/yyyy hh:mm:ss
+"",,,format.
+Value,,integer,Heart rate value.
+Data Header,Data Type,Data Description
+ActivityDate,date,Date value in mm/dd/yyyy format.
+RestingHeartRate,integer,Resting heart rate value.
+Data Header,Data Type,Data Description
+DateTime,datetime,"Date and time value in mm/dd/yyyy hh:mm:ssAM/PMformat."
+SyncDate UTC,datetime,"Date and time value in mm/dd/yyyy hh:mm:ssAM/PMformat."
+Provider,string,Name of the sync service.
+DeviceName,string,Name of the device model.
+Data Header,Data Type,Data Description
+DateTime,datetime,"Date and time value in mm/dd/yyyy hh:mm:ssAM/PMformat."
+DeviceName,String,Device model name.
+BatteryLevel,string,"Reported battery status.Four level classification:High: 75% - 100% battery chargeMedium: 25% - 75% battery chargeLow: 10% - 25% battery chargeEmpty: <10% battery chargeNote: The above percentages are approximate."
+LastSync,datetime,"Last reported sync date/time associated withthe device and battery status."
