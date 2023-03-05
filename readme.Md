@@ -43,7 +43,7 @@ Python| Pandas
 
 # Acesso ao projeto
 
-Após clonar o projeto é necessario instalar a biblioteca Pandas através do ´´´pip install pandas´´´, tambem é necessario instalar a biblioteca tabula atraves do comando pip install tabula-py
+Após clonar o projeto é necessario instalar a biblioteca Pandas através do ´´´pip install pandas´´´, tambem é necessario instalar a biblioteca tabula atraves do comando pip install tabula-py, pip install kaggle (para utilizar os arquivos). E necessario ter o Java instalado na maquina 
 
 # Bibliografia
 
