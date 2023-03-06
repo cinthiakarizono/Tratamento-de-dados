@@ -7,4 +7,3 @@ class Tratando():
         pass
     def TratarExcel():
         pass
-   
