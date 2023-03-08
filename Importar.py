@@ -1,8 +1,6 @@
 import pandas as pd
 import tabula
 
-url_pdf = 'https://www.fitabase.com/media/1930/fitabasedatadictionary102320.pdf'
-
 class Importando:
     def ImportarPdf(arquivo):
         #importando o arquivo pdf para o python
